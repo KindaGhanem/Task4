@@ -14,13 +14,23 @@
     width: 12px;
     height: 12px;
     border: 1px solid var( --main-bg-color);
-}
-.SliderTestimonial  .carousel-indicators [data-bs-target]:active ,
-.SliderTestimonial  .carousel-indicators [data-bs-target]:hover ,
-.SliderTestimonial  .carousel-indicators [data-bs-target]:focus{
-
-background-color: var( --main-bg-color) ;
-color: var( --main-bg-color) ;
+    background-color: var( --main-bg-color) ;
+    color: var( --main-bg-color) ;
 
 }
 
+
+
+.Item-Test .row-test{
+    flex-wrap: nowrap !important; 
+    overflow: hidden !important;
+}
+
+@media(max-width:550px){
+    .Item-Test .row-test .card{
+        width: 100% !important;
+
+    }
+
+
+}

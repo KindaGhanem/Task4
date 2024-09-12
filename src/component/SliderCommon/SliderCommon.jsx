@@ -19,28 +19,44 @@ export default function SliderCommon() {
 
     <Carousel className='SliderTestimonial py-4'>
 
-      <Carousel.Item>
-        <Row className='justify-content-center align-items-center'>
-        <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest4} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' display='display'  />} />
+      <Carousel.Item className='Item-Test'>
+        <Row className='justify-content-center align-items-center row-test'>
+        <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest4} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
         <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
-      <CardTestimonial cardtesttext=' Eninm nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noister aute aioet eram fore quis sint minim.' imgtest={imgtest3} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color'/>} />
+        <CardTestimonial cardtesttext=' Eninm nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noister aute aioet eram fore quis sint minim.' imgtest={imgtest3} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color'/>} />
       </Row>
+      </Carousel.Item> 
+
+      <Carousel.Item className='Item-Test'>
+        <Row className='justify-content-center align-items-center row-test'>
+          <CardTestimonial cardtesttext=' Eninm nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noister aute aioet eram fore quis sint minim.' imgtest={imgtest3} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest4} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+      </Row>
+
       </Carousel.Item>
 
-      <Carousel.Item>
-        <Row className='justify-content-center align-items-center'>
-        <CardTestimonial cardtesttext=' Eninm nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noister aute aioet eram fore quis sint minim.' imgtest={imgtest3} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
-            <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest4} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
-            <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' display ='display' />} />
-      </Row>
+      <Carousel.Item className='Item-Test'>
+        <Row className='justify-content-center align-items-center row-test'>
+          <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest1} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest5} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+        </Row>
 
       </Carousel.Item>
+      <Carousel.Item className='Item-Test'>
+        <Row className='justify-content-center align-items-center row-test'>
+          <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest1} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest5} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+        </Row>
 
-      <Carousel.Item>
-        <Row className='justify-content-center align-items-center'>
-        <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest4} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' display ='display'  />} />
-        <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
-        <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest5} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+      </Carousel.Item>
+      <Carousel.Item className='Item-Test'>
+        <Row className='justify-content-center align-items-center row-test'>
+          <CardTestimonial cardtesttext='Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. ' imgtest={imgtest1} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest2} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
+          <CardTestimonial cardtesttext='Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. ' imgtest={imgtest5} name='Jana Karles' work='Store Owner' icon1={<FaQuoteLeft className='main-color' />} icon2={<FaQuoteRight  className='main-color' />} />
         </Row>
 
       </Carousel.Item>

@@ -14,175 +14,173 @@ export default function GallerySection() {
   return (
     <section className='Sec-Gallery main-padding'>
         <MainTitleHeader h2='Gallery' text='Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit' />
-        <Carousel>
-      <Carousel.Item className='py-3'>
-        <Row>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+        <Carousel className='py-3'>
+
+      <Carousel.Item className=' Gallery-Slider-Item'>
+        <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery2} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery3} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery5} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery6} alt=''></img>
-        </Col>
+      
         </Row>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      </Carousel.Item >
+
+      <Carousel.Item className=' Gallery-Slider-Item' >
+      <Row className=' Gallery-Row justify-content-center align-items-center '>
+
           <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
           <img src = {gallery2} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
           <img src = {gallery3} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
           <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
           <img src = {gallery5} alt=''></img>
-        </Col>
+      
       </Row>
         
 
-      </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      </Carousel.Item >
+      <Carousel.Item className=' Gallery-Slider-Item'>
+      <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery7} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery8} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery3} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery5} alt=''></img>
-        </Col>
+      
         </Row>
         
 
       </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+
+      <Carousel.Item className=' Gallery-Slider-Item'>
+      <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery2} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery3} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery7} alt=''></img>
-        </Col>
+      
         </Row>
         
 
       </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+
+      <Carousel.Item className=' Gallery-Slider-Item'>
+      <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery7} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery3} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery5} alt=''></img>
-        </Col>
+      
 
         </Row>
         
 
       </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+
+      <Carousel.Item className=' Gallery-Slider-Item'>
+      <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery2} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery7} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery5} alt=''></img>
-        </Col>
+      
 
         </Row>
         
 
        </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      <Carousel.Item className=' Gallery-Slider-Item'>
+      <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery2} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery7} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery5} alt=''></img>
-        </Col>
+      
 
         </Row>
         
 
       </Carousel.Item>
-      <Carousel.Item>
-      <Row className='gap-5'>
-      <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      <Carousel.Item className=' Gallery-Slider-Item'>
+      <Row className=' Gallery-Row justify-content-center align-items-center'>
         <img src = {gallery1} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery2} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery3} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery4} alt=''></img>
-        </Col>
-        <Col  className='col-sm-6 col-md-6 col-lg-2 col-12'>
+      
+
         <img src = {gallery5} alt=''></img>
-        </Col>
+      
 
         </Row>
         
