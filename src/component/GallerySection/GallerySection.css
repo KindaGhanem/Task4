@@ -1,0 +1,18 @@
+.Sec-Gallery img{
+    width: 200px;
+    overflow: hidden;
+}
+
+.Sec-Gallery .carousel-control-next-icon {
+    display: none !important;
+
+}
+.Sec-Gallery .carousel-control-next {
+    display: none !important;
+
+}
+.Sec-Gallery  .carousel-control-prev {
+    display: none !important;
+}
+
+

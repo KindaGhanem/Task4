@@ -1,0 +1,19 @@
+.navbar-brand img{
+    width: 150px !important;
+    }
+.navbar{
+    box-shadow: 1px 1px 1px 1px #eee
+
+    }
+
+
+
+
+
+@media(max-width:576px){
+    .navbar-brand img{
+    width: 100px !important;
+    }
+}
+
+
