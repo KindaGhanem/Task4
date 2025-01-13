@@ -1,4 +1,4 @@
-import './TestimomialSection.css'
+
 import MainTitleHeader from '../MainTitleHeader/MainTitleHeader'
 import SliderCommon from '../SliderCommon/SliderCommon'
 
