@@ -35,7 +35,7 @@ export default function NavBar({logo , infoLogo , dropdown, link , items} ) {
 
         {items?.map((el , index) =>{
           return(
-          <Nav.Link key={index} href= {`${el?.id}`} className ='font-common text-black fw-semibold'>{el.name}</Nav.Link>
+          <Nav.Link key={index} href= {`#${el?.id}`} className ='font-common text-black fw-semibold'>{el.name}</Nav.Link>
           )
         })}
         
