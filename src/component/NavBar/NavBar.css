@@ -6,8 +6,14 @@
 
     }
 
+    @media(max-width:1050px) and (min-width:1000){
+        .nav-link{
+            font-size: 14px !important ;
 
+        }
 
+    }
+    
 
 
 @media(max-width:576px){

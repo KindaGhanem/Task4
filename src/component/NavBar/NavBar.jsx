@@ -9,10 +9,10 @@ export default function NavBar({logo , infoLogo , dropdown, link , items} ) {
   // const nav = useRef(null)
   // window.addEventListener("scroll" , ()=>{
   //   if(window.scrollY>20){
-  //     nav.current.style.background="white"
+  //     nav.current.style.height="calc( 100vh - 90px )"
   //   }
   //   else{
-  //     nav.current.style.background="none"
+  //     nav.current.style.height="calc( 100vh - 135px )"
   //   }
   // })
 
@@ -30,8 +30,8 @@ export default function NavBar({logo , infoLogo , dropdown, link , items} ) {
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" className='ms-sm-auto me-sm-2 border-0 p-0' />
 
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ms-auto text-black ">
+      <Navbar.Collapse id="responsive-navbar-nav" >
+        <Nav className="ms-auto text-black " >
 
         {items?.map((el , index) =>{
           return(
